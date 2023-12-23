@@ -1,8 +1,8 @@
-# CMake, Introduction to basics
+# CMake (language), Introduction to basics
 
 ### Using a build system and why it matters.
 
-A build system is a broad term that groups together a set of tools used to generally compile and link source code, but it can also include auxiliary tools used during a build process.
+A build system is a broad term that groups together a set of tools used to generally compile and link source code, but it can also include auxiliary tools used during a build process. For example, in a multi-stage build system, one executable might be built to be used in the build process of another build.
 
 #### Project
 
@@ -20,23 +20,18 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 * [Ninja](https://en.wikipedia.org/wiki/Ninja_(build_system))
 * [...](https://en.wikipedia.org/wiki/List_of_build_automation_software)
 
-### What's a build system generator
+## CMake
 
-A build system generator is responsible for writing the input files for a native build system. Generators are platform-specific so each may be available only on certain platforms.
+**Wikipedia** : "[CMake](https://en.wikipedia.org/wiki/CMake) is a cross-platform software for build automation, testing, packaging and installation of software by using a compiler-independent method. CMake is not a build system itself. It generates another system's build files and can invoke native build environments such as Make, Qt Creator, Ninja, Android Studio, Apple's Xcode, and Microsoft Visual Studio."
+
+#### Generators
+
+The build files are configured depending on the generator used (e.g. Unix Makefiles for make) and associated toolchain files. Advanced users can also create and incorporate additional makefile generators to support their specific compiler and OS needs. The generation process and the output can be fine-tuned via target properties.
 
 * [Makefile Generators]()
 * [Ninja Generators]()
 * [Visual Studio Generators]()
 * [...]()
-
-#### Build automation utility
-
-* [CMake](https://cmake.org/)
-* [PreMake](https://premake.github.io/)
-
-## CMake
-
-**Wikipedia** : "[CMake](https://en.wikipedia.org/wiki/CMake) is a cross-platform software for build automation, testing, packaging and installation of software by using a compiler-independent method. CMake is not a build system itself. It generates another system's build files and can invoke native build environments such as Make, Qt Creator, Ninja, Android Studio, Apple's Xcode, and Microsoft Visual Studio."
 
 #### Build process
 
@@ -45,3 +40,5 @@ A build system generator is responsible for writing the input files for a native
 ## An image worth a thousand word
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
+
+> Tips : An alternative to CMake that offer a simpler approach to build file configuration generation - [Premake](https://premake.github.io/).
