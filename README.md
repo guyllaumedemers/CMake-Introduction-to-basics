@@ -25,5 +25,5 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 ## An image worth a thousand word
 
-![]()
+![a](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
 
