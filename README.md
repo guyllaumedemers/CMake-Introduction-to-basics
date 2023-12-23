@@ -18,16 +18,30 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 * [Make](https://en.wikipedia.org/wiki/Make_(software))
 * [Ninja](https://en.wikipedia.org/wiki/Ninja_(build_system))
+* [...](https://en.wikipedia.org/wiki/List_of_build_automation_software)
 
 ### What's a build system generator
 
-aaaa
+A build system generator is responsible for writing the input files for a native build system. Generators are platform-specific so each may be available only on certain platforms.
+
+* [Makefile Generators]()
+* [Ninja Generators]()
+* [Visual Studio Generators]()
+* [...]()
+
+#### Build automation utility
+
+* [CMake](https://cmake.org/)
+* [PreMake](https://premake.github.io/)
+
+## CMake
+
+**Wikipedia** : "[CMake](https://en.wikipedia.org/wiki/CMake) is a cross-platform software for build automation, testing, packaging and installation of software by using a compiler-independent method. CMake is not a build system itself. It generates another system's build files and can invoke native build environments such as Make, Qt Creator, Ninja, Android Studio, Apple's Xcode, and Microsoft Visual Studio."
+
+#### Build process
+
+**Wikipedia** : "The build of a program or library with CMake is a two-stage process. First, build files (usually scripts) are created (generated) from configuration files (CMakeLists.txt scripts) written in CMake language. Then the platform's native build tools that can read these build files (native toolchain) are invoked either manually externally or via cmake --build for actual building of programs (build targets). The generator specified by the user on the commandline determines which build tool chain to use."
 
 ## An image worth a thousand word
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
-
-## CMake
-
-**Wikipedia** : "[CMake](https://en.wikipedia.org/wiki/CMake) is cross-platform free and open-source software for build automation, testing, packaging and installation of software by using a compiler-independent method. CMake is not a build system itself; it generates another system's build files. It can invoke native build environments such as Make, Qt Creator, Ninja, Android Studio, Apple's Xcode, and Microsoft Visual Studio."
-
