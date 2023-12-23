@@ -21,9 +21,13 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 ### What's a build system generator
 
-**Wikipedia** : "[CMake](https://en.wikipedia.org/wiki/CMake) is cross-platform free and open-source software for build automation, testing, packaging and installation of software by using a compiler-independent method. CMake is not a build system itself; it generates another system's build files. It can invoke native build environments such as Make, Qt Creator, Ninja, Android Studio, Apple's Xcode, and Microsoft Visual Studio."
+aaaa
 
 ## An image worth a thousand word
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
+
+## CMake
+
+**Wikipedia** : "[CMake](https://en.wikipedia.org/wiki/CMake) is cross-platform free and open-source software for build automation, testing, packaging and installation of software by using a compiler-independent method. CMake is not a build system itself; it generates another system's build files. It can invoke native build environments such as Make, Qt Creator, Ninja, Android Studio, Apple's Xcode, and Microsoft Visual Studio."
 
