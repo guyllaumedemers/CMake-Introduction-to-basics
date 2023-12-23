@@ -2,7 +2,7 @@
 
 ### Using a build system and why it matters.
 
-A build system is a broad term that groups together a set of tools used to generally compile and link source code, but it can also include auxiliary tools used during a build process. For example, in a multi-stage build system, one executable might be built to be used in the build process of another build.
+A build system is a broad term that groups together a set of tools used to generally compile and link source code, but it can also include auxiliary tools used during a build process.
 
 #### Project
 
@@ -41,4 +41,4 @@ The build files are configured depending on the generator used (e.g. Unix Makefi
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
 
-> Tips : An alternative to CMake that offer a simpler approach to build file configuration generation - [Premake](https://premake.github.io/).
+> Tips : An alternative to CMake that offer a simpler approach to build file configuration [Premake](https://premake.github.io/).
