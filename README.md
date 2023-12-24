@@ -26,7 +26,7 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 #### Build process
 
-The build of a program or library with CMake is a two-stage process. First, build files (usually scripts) are created (generated) from configuration files (CMakeLists.txt scripts) written in CMake language. Then the platform's native build tools that can read these build files (native toolchain) are invoked either manually externally or via cmake --build for actual building of programs (build targets). The generator specified by the user on the commandline determines which build tool chain to use.
+The build of a program or library with CMake is a two-stage process. First, build files (usually scripts) are created (generated) from configuration files (CMakeLists.txt scripts) written in CMake language. Then the platform's native build tools that can read these build files (native toolchain) are invoked either manually externally or via `cmake --build` for actual building of programs (build targets). The generator specified by the user on the commandline determines which build tool chain to use.
 
 #### Generators
 
