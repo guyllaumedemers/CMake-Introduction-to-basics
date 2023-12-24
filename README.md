@@ -41,6 +41,6 @@ The build files are configured depending on the generator used (e.g. Unix Makefi
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
 
-## Building an executable
+# Building an executable
 
 aaa
