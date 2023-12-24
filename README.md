@@ -40,5 +40,3 @@ The build files are configured depending on the generator used (e.g. Unix Makefi
 ## An image worth a thousand word
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
-
-> Tips : An alternative to CMake that offer a simpler approach to build file configuration [Premake](https://premake.github.io/).
