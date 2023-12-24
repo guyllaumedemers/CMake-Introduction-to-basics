@@ -37,7 +37,7 @@ The build files are configured depending on the generator used (e.g. Unix Makefi
 * [Visual Studio Generators](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#visual-studio-generators)
 * [...](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html)
 
-#### An image worth a thousand word
+### An image worth a thousand word
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
 
