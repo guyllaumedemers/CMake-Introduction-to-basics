@@ -2,7 +2,7 @@
 
 ### Using a build system and why it matters.
 
-A build system is a broad term that groups together a set of tools used to generally compile and link source code, but it can also include auxiliary tools used during a build process.
+**Wikipedia** : "Build automation is the process of automating the creation of a software build and the associated processes including: compiling computer source code into binary code, packaging binary code, and running automated tests."
 
 #### Project
 
@@ -14,10 +14,11 @@ Be aware that some of the tooling used in the making of this `Demo` project won'
 
 ## What's a build system
 
-**Wikipedia** : "Build automation is the process of automating the creation of a software build and the associated processes including: compiling computer source code into binary code, packaging binary code, and running automated tests."
+A build system describes how to build a project's executables and libraries from its source code using a build tool to automate the process. For example, a build system may be a Makefile for use with a command-line `make` tool or a project file for an Integrated Development Environment (IDE).
 
 * [Make](https://en.wikipedia.org/wiki/Make_(software))
 * [Ninja](https://en.wikipedia.org/wiki/Ninja_(build_system))
+* [MSBuild](https://en.wikipedia.org/wiki/MSBuild)
 * [...](https://en.wikipedia.org/wiki/List_of_build_automation_software)
 
 ## CMake
@@ -41,6 +42,12 @@ The build files are configured depending on the generator used (e.g. Unix Makefi
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
 
-# Building an executable
+# Building a project
 
-aaa
+### How to build an executable
+
+aaaa
+
+# Installing a project
+
+aaaa
