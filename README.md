@@ -32,11 +32,15 @@ The build of a program or library with CMake is a two-stage process. First, buil
 
 The build files are configured depending on the generator used (e.g. Unix Makefiles for make) and associated toolchain files. Advanced users can also create and incorporate additional makefile generators to support their specific compiler and OS needs. The generation process and the output can be fine-tuned via target properties.
 
-* [Makefile Generators]()
-* [Ninja Generators]()
-* [Visual Studio Generators]()
+* [Makefile Generators](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#makefile-generators)
+* [Ninja Generators](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#ninja-generators)
+* [Visual Studio Generators](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#visual-studio-generators)
 * [...](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html)
 
-## An image worth a thousand word
+#### An image worth a thousand word
 
 ![build_process](https://github.com/guyllaumedemers/CMake-Introduction-to-basics/blob/master/res/Build_process.png)
+
+## Building an executable
+
+aaa
