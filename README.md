@@ -97,8 +97,15 @@ target_link_libraries("${PROJECT_NAME}" PRIVATE "static_get_greeting_lib")
 ```
 // CMakeLists.txt
 
-## do stuff
+cmake_minimum_required(VERSION "3.5")
 
+project("shared-GetGreetings")
+
+add_library("shared_get_greeting_lib" SHARED "GetGreetings.cc")
+
+add_executable("${PROJECT_NAME}" "Main.cc")
+
+target_link_libraries("${PROJECT_NAME}" PRIVATE "shared_get_greeting_lib")
 ```
 
 # Installing a project
