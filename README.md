@@ -27,7 +27,7 @@ A build system describes how to build a project's executables and libraries from
 
 #### Build process
 
-The build of a program or library with CMake is a two-stage process. First, build files (usually scripts) are created (generated) from configuration files (CMakeLists.txt scripts) written in CMake language. Then the platform's native build tools that can read these build files (native toolchain) are invoked either manually externally or via `cmake --build` for actual building of programs (build targets). The generator specified by the user on the command-line determines which build tool chain to use.
+The build of a program or library with CMake is a two-stage process. First, build files (usually scripts) are created (generated) from configuration files (CMakeLists.txt scripts) written in the CMake language. Then the platform's native build tools that can read these build files (native toolchain) are invoked either manually externally or via `cmake --build` for actual building of programs (build targets). The generator specified by the user on the command-line determines which build tool chain to use.
 
 #### Generators
 
@@ -47,8 +47,8 @@ The build files are configured depending on the generator used (e.g. Unix Makefi
 To generate a build system with CMake, the following must be selected:
 
 * [Source Tree]() : The top-level directory containing source files provided by the project.
-* [Build Tree]() : The top-level directory in which buildsystem files and build output artifacts (e.g. executables and libraries) are to be stored.
-* [Generator]() : This chooses the kind of build system to generate.
+* [Build Tree]() : The top-level directory in which build system files and build output artifacts (e.g. executables and libraries) are to be stored.
+* [Generator]() : The kind of build system to generate.
 
 ### How to build an executable
 
