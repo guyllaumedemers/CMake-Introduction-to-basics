@@ -76,14 +76,29 @@ add_executable("${PROJECT_NAME}" "Main.cc")
 C: > cmake -B out/build -S .
 ```
 
+##### Static library
+
 ```
 // CMakeLists.txt
 
 cmake_minimum_required(VERSION "3.5")
 
-project("Demo")
+project("GetGreetings")
+
+add_library("static_get_greeting_lib" STATIC "GetGreetings.cc
 
 add_executable("${PROJECT_NAME}" "Main.cc")
+
+target_link_libraries("${PROJECT_NAME}" PRIVATE "static_get_greeting_lib")
+```
+
+##### Shared library
+
+```
+// CMakeLists.txt
+
+## do stuff
+
 ```
 
 # Installing a project
