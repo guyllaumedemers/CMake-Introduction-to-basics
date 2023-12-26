@@ -58,6 +58,7 @@ Executables and libraries are defined using the `add_executable()` and `add_libr
 
 ```
 C:> cmake -B out/build -S .
+C:> cmake --build out/build
 ```
 **Hint** : `Visual Studio Generator` is invoked implicitly by the Integrated development environment (IDE) command-line interface (CLI) when performing CMake commands. To confirm the default generator target, call `C:> cmake -g -h` or explicitly invoke the target using `C:> cmake -B out/build -S . -g "SomeGenerator"`.
 
@@ -82,7 +83,7 @@ add_executable("${PROJECT_NAME}" "Main.cc")
 
 cmake_minimum_required(VERSION "3.5")
 
-project("GetGreetings")
+project("static-GetGreetings")
 
 add_library("static_get_greeting_lib" STATIC "GetGreetings.cc
 
