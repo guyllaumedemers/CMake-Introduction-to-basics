@@ -72,11 +72,11 @@ add_executable("${PROJECT_NAME}" "Main.cc")
 
 #### Building Library types
 
-```
-C: > cmake -B out/build -S .
-```
+Make sure to visit the following [link](https://github.com/guyllaumedemers/MSVC-Building-a-library/tree/master) for more information on library types.
 
 ##### Static library
+
+**Reminder** : "A static library or statically-linked library is a set of routines, external functions and variables which are resolved in a caller at compile-time and copied into a target application by a compiler, linker, or binder, producing an object file and a stand-alone executable."
 
 ```
 // CMakeLists.txt
@@ -93,6 +93,8 @@ target_link_libraries("${PROJECT_NAME}" PRIVATE "static_get_greeting_lib")
 ```
 
 ##### Shared library
+
+**Reminder** : "A shared library or shared object is a file that is intended to be shared by executable files and further shared object files. Modules used by a program are loaded from individual shared objects into memory at load time or runtime, rather than being copied by a linker when it creates a single monolithic executable file for the program."
 
 ```
 // CMakeLists.txt
