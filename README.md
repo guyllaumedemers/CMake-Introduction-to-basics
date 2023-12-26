@@ -57,8 +57,9 @@ Executables and libraries are defined using the `add_executable()` and `add_libr
 #### Building an executable
 
 ```
-C: > cmake -B out/build -S .
+C:> cmake -B out/build -S .
 ```
+**Hint** : `Visual Studio Generator` is invoked implicitly by the Integrated development environment (IDE) command-line interface (CLI) when performing CMake commands. To confirm the default generator target, call `C:> cmake -g -h` or explicitly invoke the target using `C:> cmake -h "SomeGenerator"`.
 
 ```
 // CMakeLists.txt
