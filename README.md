@@ -50,9 +50,41 @@ To generate a build system with CMake, the following must be selected:
 * [Build Tree]() : The top-level directory in which build system files and build output artifacts (e.g. executables and libraries) are to be stored.
 * [Generator]() : The kind of build system to generate.
 
-### How to build an executable
+### How to build a Binary target
 
-aaaa
+Executables and libraries are defined using the `add_executable()` and `add_library()` commands. The resulting binary files have appropriate PREFIX, SUFFIX and extensions for the platform targeted.
+
+#### Building an executable
+
+```
+C: > cmake -B out/build -S .
+```
+
+```
+// CMakeLists.txt
+
+cmake_minimum_required(VERSION "3.5")
+
+project("Demo")
+
+add_executable("${PROJECT_NAME}" "Main.cc")
+```
+
+#### Building Library types
+
+```
+C: > cmake -B out/build -S .
+```
+
+```
+// CMakeLists.txt
+
+cmake_minimum_required(VERSION "3.5")
+
+project("Demo")
+
+add_executable("${PROJECT_NAME}" "Main.cc")
+```
 
 # Installing a project
 

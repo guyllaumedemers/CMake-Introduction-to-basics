@@ -22,9 +22,15 @@
 cmake_minimum_required(VERSION "3.5")
 
 ## Sets the name of the project, and stores it in the variable PROJECT_NAME.
-project("HelloWorld")
+project("GetGreetings")
+
+## Adds a library target called <name> to be built from the source files listed in the command invocation.
+add_library("static_get_greeting_lib" STATIC "GetGreetings.cc")
 
 ## A CMake-based build system is organized as a set of high-level logical targets. Each target corresponds to an executable or library,
 ## or is a custom target containing custom commands. Dependencies between the targets are expressed in the build system to determine the build order
 ## and the rules for regeneration in response to change.
 add_executable("${PROJECT_NAME}" "Main.cc")
+
+## Dependencies between binary targets are expressed using the target_link_libraries()
+target_link_libraries("${PROJECT_NAME}" PRIVATE "static_get_greeting_lib")
