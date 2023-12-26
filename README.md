@@ -73,8 +73,6 @@ add_executable("${PROJECT_NAME}" "Main.cc")
 
 #### Building Library types
 
-Make sure to visit the following [link](https://github.com/guyllaumedemers/MSVC-Building-a-library/tree/master) for more information on library types.
-
 ##### Static library
 
 **Reminder** : "A static library or statically-linked library is a set of routines, external functions and variables which are resolved in a caller at compile-time and copied into a target application by a compiler, linker, or binder, producing an object file and a stand-alone executable."
@@ -110,6 +108,8 @@ add_executable("${PROJECT_NAME}" "Main.cc")
 
 target_link_libraries("${PROJECT_NAME}" PRIVATE "shared_get_greeting_lib")
 ```
+
+Visit [MSVC, Building a library](https://github.com/guyllaumedemers/MSVC-Building-a-library/tree/master) for additional information on library types.
 
 # Installing a project
 
