@@ -66,7 +66,7 @@ C:> cmake -B out/build -S .
 
 cmake_minimum_required(VERSION "3.5")
 
-project("Demo")
+project("HelloWorld")
 
 add_executable("${PROJECT_NAME}" "Main.cc")
 ```
