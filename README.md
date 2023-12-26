@@ -110,7 +110,3 @@ target_link_libraries("${PROJECT_NAME}" PRIVATE "shared_get_greeting_lib")
 ```
 
 Tips : Further details are provided on library types at the following link - [MSVC, Building a library](https://github.com/guyllaumedemers/MSVC-Building-a-library/tree/master).
-
-# Installing a project
-
-aaaa
